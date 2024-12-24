@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustang Mach-E</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <header>
+            <a href="">
+                <img src="./assets/mustang-6-logo-png-transparent.png" class="logo" alt=" Logo Ford Mustang">
+            </a>
+            <ul class="navigation">
+                <li><a href="">Exterior</a></li>
+                <li><a href="">Interior</a></li>
+                <li><a href="">Carregamento</a></li>
+                <li><a href="">Tecnologias</a></li>
+                <li><a href="">Modelos</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <h2>Ford Mustang <span>Mach-E</span></h2>
+            <a href="#" class="bottom">Puro sangue 100% Elétrico</a>
+            <img src="./assets/mustang_frente.avif" class="Mach-E" alt="Mustang Mach-E">
+        </div>
+        <div class="slider">
+            <div class="slides active">
+                <h2>
+                    <span>
+                        Velocidade Máx.
+                    </span>
+                    <br>
+                    180km/h
+                </h2>
+                <h2>
+                    <span>
+                        Potência Máxima
+                    </span>
+                    <br>
+                    329cv
+                </h2>
+            </div>
+            <div class="slides">
+                <h2>
+                    <span>
+                        0-100 km/h
+                    </span>
+                    <br>
+                    3.5s
+                </h2>
+                <h2>
+                    <span>
+                        Autonomia Máxima
+                    </span>
+                    <br>
+                    600 km
+                </h2>
+
+            </div>
+            <div class="slides">
+                <h2>
+                    <span>
+                        Carregamento 0-80%
+                    </span>
+                    <br>
+                    32.2 min
+                </h2>
+                <h2>
+                    <span>
+                        Capacidade de Bateria
+                    </span>
+                    <br>
+                    72.6 kwh
+                </h2>
+            </div>
+        </div>
+        <footer>
+            <ul class="sic">
+                <li>
+                    <a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </footer>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script>
+        const slides = document.querySelectorAll(".slides");
+        const dots = document.querySelectorAll(".dot");
+
+        function setActive(i) {
+            console.log(i)
+            for (slide of slides) {
+                slide.classList.remove('active');
+                slides[i].classList.add('active');
+            }
+
+            for (dot of dots) {
+                dot.classList.remove('active');
+                dots[i].classList.add('active');
+            }
+        }
+
+
+        for (let j = 0; j < dots.length; j++) {
+            dots[j].addEventListener('click', () => {
+                setActive(j);
+            })
+        }
+
+    </script>
+</body>
+
+</html>

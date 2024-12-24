@@ -1,0 +1,395 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    margin: 0%;
+}
+
+
+div {
+    border: 0px solid black;
+}
+
+
+.empresa {
+    background-color: #144194;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    height: 50px;
+    border: 1px solid black;
+
+
+}
+
+
+
+
+.secao1 {
+    background-image: url(machu-picchu-banner-c.jpg);
+    width: 1528px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 18px;
+    padding: 20px;
+    border: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+
+
+
+}
+
+
+.menu div {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+
+
+}
+
+
+.destino {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+
+.capa-span {
+    margin: 50px auto 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: table;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+.capa-h1 {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 64px;
+    font-weight: 900px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.6);
+}
+
+
+.menu-atalhos {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+
+}
+
+
+.atalhos {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 110px;
+    text-align: center;
+    margin: 5px;
+    height: fit-content;
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+
+.atalhos div {
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+.secao2 {
+    text-align: center;
+    border: solid white;
+}
+
+
+.conteudo {
+    display: flex;
+}
+
+
+.autores {
+    border: 0cap solid black;
+    width: 25%;
+    padding-top: 25px;
+
+
+}
+
+
+.autores div img {
+    border: 1px solid #AAAAAA;
+    border-radius: 20px;
+
+}
+
+
+.autores div {
+    border: 1px solid white;
+    float: right;
+    width: 60%;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+
+.info-destino {
+    width: 100%;
+    display: flex;
+    color: #333;
+    margin: 0 auto 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+    text-align: justify;
+    line-height: 1.7em;
+
+
+
+}
+
+
+.info-destino div {
+    width: 80%;
+    border: 1px solid white;
+}
+
+
+.info-destino div p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1, 6;
+    text-align: justify;
+}
+
+
+.picchu {
+    display: flex;
+    align-items: center;
+    width: 980px;
+    height: 500px;
+    object-fit: cover;
+
+
+    margin: auto;
+
+
+}
+
+
+.link-menu:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.info-destino-2 {
+    width: 100%;
+    display: flex;
+    color: #333;
+    margin: 0 auto 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+.post {
+    background-color: #F3FBEE;
+    border-radius: 12px;
+    border: 2px dashed #D6F1C5;
+    margin: 50px 0;
+
+}
+
+.menu-guia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 290px;
+
+}
+
+.menu-guia h3 {
+    font-size: 24px;
+}
+
+.menu-guia-atalho {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pag-footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #144194;
+    width: 100vw;
+    height: 500px;
+
+}
+
+footer img {
+    width: 280px;
+    height: 50px;
+}
+
+.footer-sec {
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    /* Ajuste de padding lateral */
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-right: 150px;
+
+}
+
+.footer-ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: white;
+}
+
+.footer-ul li {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.links div {
+    margin: 0 10px;
+}
+
+.eu {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {  
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {  
+    background-color: #dddddd;
+}
+
+ul {
+    list-style-type: disc;
+    color: blue;
+    text-align: left;
+    margin: 0;
+}
+li{
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+a { 
+    color: blue;
+    text-decoration: none;
+}  
+a:hover {  
+    text-decoration: underline;
+}
+
+.container {
+
+    background-color:#f3fbee;
+    padding: 20px;
+    margin: 20px auto;
+    width: 700px;
+    border-radius: 5px;
+    border: 5px dashed green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.h-container {
+    text-align: center;
+    color: black;
+}
+.ul-container {
+    list-style: disc;
+    margin-left: 20px;
+   
+    
+}
+
+
+li {
+
+    margin-bottom: 5px;
+    color: black;
+
+}
